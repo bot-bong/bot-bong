@@ -9,7 +9,7 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # ✨ chữ đẹp giữ nguyên
-base_text = "♡𝑩𝒐𝒏𝒈 𝑾 𝑲𝒂𝒏𝒈♡"
+base_text = "♡𝑲𝒂𝒏𝒈 𝑾 𝑩𝒐𝒏𝒈♡"
 
 # 🌈 icon siêu nhiều
 icons = [
@@ -31,7 +31,7 @@ async def on_ready():
 
     await asyncio.sleep(5)
 
-    channel_id = 1490673130824401016
+    channel_id = 1536708954120396921
     channel = bot.get_channel(channel_id)
 
     # 🎧 vào voice
